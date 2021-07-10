@@ -5,6 +5,7 @@ public class Input extends Display{
         Scanner scanner = new Scanner(System.in);
         printToScreenLesson();
         printToScreenQuestion("Melyik feladatot választod?");
+        scanner.nextLine();
 
     }
 }

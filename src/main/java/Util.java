@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.util.ArrayList;
 import java.util.Scanner; // Import the Scanner class to read text files
 
-public class Util {
+public class Util{
 
     public static ArrayList<String> listOfLines = new ArrayList<String>();
     public static ArrayList<ArrayList<String>> listOfLessons = new ArrayList<ArrayList<String>>();

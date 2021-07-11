@@ -15,4 +15,10 @@ public class Inputs extends Main{
             chooseLesson();
         }
     }
+
+    public static String getAnswer(){
+        Scanner scanner = new Scanner(System.in);
+        String answer = scanner.nextLine();
+        return answer;
+    }
 }

@@ -9,4 +9,8 @@
             System.out.println(String.format("%2d", i) + " " + data);
         }
     }
+
+    public static void printToScreenWords(String word){
+        System.out.println(word);
+    }
 }

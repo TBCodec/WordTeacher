@@ -7,6 +7,7 @@ public class Main extends Util{
         readFile();
         splitTheLessons();
         input.chooseLesson();
-        System.out.println(questioningTask);
+        Questioner questioner = new Questioner();
+        questioner.questionProgram(questioningTask);
     }
 }
